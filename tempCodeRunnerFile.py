@@ -1,5 +1,2 @@
-def printLinkedList(self):
-    #     tmp = self.head
-    #     while tmp is not None:
-    #         print(tmp.data)
-    #         tmp = tmp.next
+linked_list.insertFornt("1")
+# linked_list.insertFornt("2")
