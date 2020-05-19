@@ -23,6 +23,7 @@ class LinkedList:
             while (lastElemet.nextAddress != None):
                 lastElemet = lastElemet.nextAddress
             lastElemet.nextAddress = newNode
+
     def deleteNode(self, position):
         if position == 0:
             tmp = self.head
@@ -35,6 +36,8 @@ class LinkedList:
             tmp2 = self.head
             tmp2 = tmp.nextAddress
             tmp.nextAddress = tmp2.nextAddress
+    
+
 linked_list = LinkedList()
 
 
@@ -45,7 +48,7 @@ linked_list.insertNode("Niloy")
 linked_list.insertNode("1")
 linked_list.insertNode("3")
 
-linked_list.deleteNode(0)
+linked_list.deleteNode(3)
 linked_list.printList()
 
 
